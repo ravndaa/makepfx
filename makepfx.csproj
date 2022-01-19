@@ -17,7 +17,14 @@
     <Product>makepfx</Product>
     <Description />
     <Copyright>Copyright © 2022</Copyright>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>none</DebugType>
+    <ApplicationIcon>duck-color.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="duck-color.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.CommandLine" Version="2.0.0-beta2.21617.1" />
