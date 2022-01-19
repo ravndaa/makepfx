@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <PublishTrimmed>true</PublishTrimmed>
+    <Version>1.0.9999.0</Version>
+    <AssemblyVersion>1.0.9999.0</AssemblyVersion>
+    <FileVersion>1.0.9999.0</FileVersion>
+    <Company>HomeMadeCrap</Company>
+    <Authors>ravndaa</Authors>
+    <Product>makepfx</Product>
+    <Description />
+    <Copyright>Copyright © 2022</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta2.21617.1" />
+  </ItemGroup>
+
+</Project>
