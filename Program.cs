@@ -33,7 +33,7 @@ static string GetPassword()
             if (!string.IsNullOrEmpty(password))
             {
                 // remove one character from the list of password characters
-                password = password.Substring(0, password.Length - 1);
+                password = password[0..^1];
                 // get the location of the cursor
                 int pos = Console.CursorLeft;
                 // move the cursor to the left by one character
